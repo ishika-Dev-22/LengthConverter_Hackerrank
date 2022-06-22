@@ -1,0 +1,27 @@
+
+<div class="layout-row align-items-center justify-content-center mt-50">
+
+  <section class="layout-column align-items-center justify-content-between">
+    <span class="input layout-row">
+        <input type="number" class="large" [(ngModel)] = "obj.firstInput"
+        data-test-id="app-input1" (ngModelChange) = "convert(obj.firstInput, true, false, false,false)"/>
+        <label class="suffix" data-test-id="app-label1">{{obj.unitF}}</label>
+    </span>
+    <select (change) = "onChangeFirstUnit($event.target.value, obj.firstInput)" data-test-id="app-select1">
+      <option *ngFor="let item of lengthOptions" [value]="item.id">{{item.label}}</option>
+    </select>
+  </section>
+
+  <label>⇋</label>
+
+  <section class="layout-column align-items-center justify-content-between">
+      <span class="input layout-row">
+          <input type="number" class="large" [(ngModel)] = "obj.secondInput"
+          data-test-id="app-input2" (ngModelChange) = "convert(obj.secondInput, false, true, false,false)" />
+          <label class="suffix" data-test-id="app-label2">{{obj.unitS}}</label>
+      </span>
+      <select (change) = "onChangeSecondUnit($event.target.value, obj.secondInput)" data-test-id="app-select2">
+        <option *ngFor="let item of lengthOptions" [selected]= "item.id =='1'" [value]="item.id">{{item.label}}</option>
+      </select>
+    </section>
+</div>

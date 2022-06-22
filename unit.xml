@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 102.0.5005 (Windows 10.0.0)" package="unit" timestamp="2022-06-22T11:48:16" id="0" hostname="DESKTOP-0JOM33D" tests="9" errors="0" failures="0" time="0.515">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/102.0.5005.115 Safari/537.36"/>
+  </properties>
+  <testcase name="LengthConverter Typing value in Metres field gets correct Centimetres value" time="0.153" classname=".LengthConverter"/>
+  <testcase name="LengthConverter initial UI is rendered as exptected" time="0.057" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Typing value in Kilometres field gets correct Metres value" time="0.032" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Typing value in Metres field gets correct Metres value" time="0.034" classname=".LengthConverter"/>
+  <testcase name="LengthConverter If input is not empty and dropdown is changed, input field should reflect new value" time="0.053" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Typing value in Metres field gets correct Kilometres value" time="0.045" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Perform series of operations" time="0.045" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Typing value in Kilometres field gets correct Kilometres value" time="0.051" classname=".LengthConverter"/>
+  <testcase name="LengthConverter Typing value in Kilometres field gets correct Centimetres value" time="0.045" classname=".LengthConverter"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown1 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: null, secondInput: 500, unitF: 'cm', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'first input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: 500, secondInput: null, unitF: 'km', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown1 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: null, secondInput: 500, unitF: 'm', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown1 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: null, secondInput: 500, unitF: 'cm', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: null, secondInput: 500, unitF: 'km', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown1 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: null, secondInput: 500, unitF: 'cm', unitS: 'm'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'first input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: 700, secondInput: 0.5, unitF: 'cm', unitS: 'km'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'second input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: 700, secondInput: 2, unitF: 'cm', unitS: 'km'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'first input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: 500, secondInput: null, unitF: 'km', unitS: 'km'}
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'dropdown2 changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: 'first input changed'
+,HeadlessChrome 102.0.5005 (Windows 10.0.0) LOG: Object{firstInput: 500, secondInput: 0, unitF: 'km', unitS: 'cm'}
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
